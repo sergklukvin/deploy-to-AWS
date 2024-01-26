@@ -5,10 +5,10 @@ inputs:
     description: 'Whether to cache dependencies or not'
     required: false
     default: 'true'
-    outputs:
-      used-cache:
-        description: 'Whether he cache was used'
-        value: ${{ steps.install.outputs.cache }}
+outputs:
+  used-cache:
+    description: 'Whether he cache was used'
+    value: ${{ steps.install.outputs.cache }}
 runs:
   using: 'composite'
   steps:
