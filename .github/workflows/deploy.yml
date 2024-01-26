@@ -35,6 +35,21 @@ jobs:
         with:
           name: test-report
           path: test.json
+  build:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get code
+        uses: actions/checkout@v4
+      - name: Load and Cache dependencies
+        uses: ./.github/actions/cached-deps
+      - name: Build website
+        run: npm run build
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-files
+          path: dist
   deploy:
     needs: build
     runs-on: ubuntu-latest
