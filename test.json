@@ -8,7 +8,7 @@
   "numFailedTests": 0,
   "numPendingTests": 0,
   "numTodoTests": 0,
-  "startTime": 1706369637606,
+  "startTime": 1706370358436,
   "success": true,
   "testResults": [
     {
@@ -21,7 +21,7 @@
           "fullName": " MainContent should render a button",
           "status": "passed",
           "title": "should render a button",
-          "duration": 26,
+          "duration": 27,
           "failureMessages": []
         },
         {
@@ -32,12 +32,12 @@
           "fullName": " MainContent should show the help area after clicking the button",
           "status": "passed",
           "title": "should show the help area after clicking the button",
-          "duration": 20,
+          "duration": 26,
           "failureMessages": []
         }
       ],
-      "startTime": 1706369638591,
-      "endTime": 1706369638637,
+      "startTime": 1706370359354,
+      "endTime": 1706370359407,
       "status": "passed",
       "message": "",
       "name": "/Users/skliu/Documents/lessons/github-actions/deploy-to-AWS/src/components/MainContent.test.jsx"
