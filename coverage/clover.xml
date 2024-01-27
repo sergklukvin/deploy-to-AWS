@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1706380982965" clover="3.2.0">
-  <project timestamp="1706380982965" name="All files">
+<coverage generated="1706381412753" clover="3.2.0">
+  <project timestamp="1706381412753" name="All files">
     <metrics statements="71" coveredstatements="71" conditionals="9" coveredconditionals="9" methods="4" coveredmethods="4" elements="84" coveredelements="84" complexity="0" loc="71" ncloc="71" packages="1" files="3" classes="3"/>
     <file name="HelpArea.jsx" path="/Users/skliu/Documents/lessons/github-actions/deploy-to-AWS/src/components/HelpArea.jsx">
       <metrics statements="32" coveredstatements="32" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
