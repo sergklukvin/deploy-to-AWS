@@ -1,5 +1,5 @@
 {
-  "name": "02-basic-example",
+  "name": "deploy to aws",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +8,8 @@
     "lint": "eslint --ext .jsx --fix src",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "test:coverage": "vitest --coverage"
   },
   "dependencies": {
     "prop-types": "^15.8.1",
@@ -21,12 +22,13 @@
     "@testing-library/user-event": "^14.4.3",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
-    "@vitejs/plugin-react": "^2.0.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vitest/coverage-v8": "^1.2.2",
     "eslint": "^8.23.0",
     "eslint-plugin-react": "^7.31.1",
     "jsdom": "^20.0.0",
-    "vite": "^3.0.7",
+    "vite": "^5.0.12",
     "vite-plugin-eslint": "^1.8.1",
-    "vitest": "^0.22.1"
+    "vitest": "^1.2.2"
   }
 }
